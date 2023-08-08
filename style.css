@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background: black;
+    color: white;
+    height: 100vh;
+}
+.header
+{
+    width: 100%;
+    height: 89%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(image/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
+    
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+
+}
+.signin_btn
+{
+    border: 0;
+    outline: 0;
+    background-color: rgb(219, 0, 1);
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 35px;
+}
+.language_btn
+{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    
+}
+.language_btn svg
+{
+  padding-right: 5px;
+}
+.language_btn img
+{
+    width: 10px;
+    margin-left: 10px;
+    padding-left: 2px;
+}
+.header_content
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: auto;
+    width:100%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header_content h1
+{
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+.header_content p
+{
+    font-size: 23px;
+}
+form input
+{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+    height: 50px;
+    padding: 10px;
+    width: 30%;
+    font-size: 24px;
+    color: #fff;
+}
+form button
+{
+    height: 50px;
+    color: white;
+    background-color: rgb(219, 0, 1);
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: auto;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+}
+.border_section
+{
+    height: 10px;
+    background-color: #232323;
+    width: 100%;
+}
+.second_section
+{
+    position: relative;
+    top: 10%;
+    padding-left: 2%;
+    height: 80vh;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.first_part
+{
+    width: 40%;
+    padding-top: 100px;
+    height: 50%;
+}
+.first_part p
+{
+    padding-top: 0.5cm;
+    font-weight: 400;
+}
+.second_part
+{
+    width: 40%;
+    height: 70%;
+    background:url();
+    background-size: cover; 
+
+}
+.second_part video
+{
+    width: 100%;
+    bottom: 0;
+    right: 0;
+
+
+}
+.third_section
+{
+  
+    top: 10%;
+    padding-left: 2%;
+    padding-top: 5%;
+    height: 80vh;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-flex;  
+}
+.first_part_third
+{
+    width: 500px;
+    height: 89%;
+    
+    background-image: url(image/mobile-0819.jpg);
+}
+.subdiv
+{
+    height: 100px;
+    width: 340px;
+    margin-top: 330px;
+    background: black;
+    margin-left: 150px;
+    border:2px solid#5a5a5a;
+    border-radius: 10px ;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-flex;
+}
+.subdivdiv 
+{
+    font-size: 18px;
+    margin-left: 10px;
+}
+#download
+{
+    font-size: 15px;
+    color: #0071eb;
+}
+.downloadgif
+{
+    width: 100px;
+    background:url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+}
+.second_part_third
+{
+    color: white;
+    width: 500px;
+    height: 89%;
+    margin-left: 10%;
+    margin-top: 8%;
+
+}
+.second_part_third h1
+{
+    font-weight: bold;
+}
+.second_part_third p
+{
+    font-weight: normal;
+}
+.six_section
+{
+    width: 100%;
+    height: 49rem;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 24px;
+}
+.question_div
+{
+    width: 70%;
+    height: 80px;
+    background-color: #2d2d2d;
+    display: inline-flex;
+    align-items: center;
+
+}
+.question_div label
+{
+    padding: 5%;
+}
+
+label::after
+{
+    content: "+";
+    font-size: 32px;
+    position: absolute;
+    right: 248px;
+}
+.space
+{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+.signup_bottum
+{
+    height: 150px;
+    width: 100%;
+    align-items: center;
+}
+.signup_bottum p
+{
+    font-size: 20px;
+}
+.seven_section
+{
+    height: 500px;
+    width: 100%;
+}
+.globaldiv
+{
+    width: 10px;
+    height: 10px;
+    background-color: #0071eb;
+}
+.header-content6 h5{
+    font-size: 13px;
+      padding-left: 134px;
+      padding-top: 75px;
+      font-family: 'poppins',sans-serif;
+      color: #93a2a0;
+  }
+  .header-content6 button{
+    margin-top: 25px;
+      border-radius: 3px;
+  }
+  .allinnerdiv
+  {
+    display: inline-flex;
+    width: 100%;
+    height: 400px;
+    line-height: 1.8;
+    font-size: 10px;
+    padding-left:10px;
+   font-family: 'poppins',sans-serif;
+  }
+  .inner
+  {
+   height: 30px;
+   width: 25%;
+   padding-left: 9px;
+   
+  }
+  a{
+    color:#93a2a0;
+  }
+  .innerone{
+    padding-left: 124px;
+  }
+  .innertwo{
+    padding-left: 120px;
+  }
+  .innerthree{
+    padding-left: 140px;
+  }
+  .innerfour{
+    padding-left: 100px;
+  }
+  .language-btn1{
+    background-color: #2d2d2d;
+    width: 98px;
+    height: 24px;
+    padding-left: 16px
+  }
+  .language-btn1 img{
+    width: 6px;
+    height: 4px;
+    padding-left: 17px;
+  }.language-btn1{
+    display:inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border:1px solid #fff;
+    align-content: center;
+    width: 105px;
+    color: #fff;
+    .language-btn1{
+      padding-left: 50px;
+    
+    }
+  }
+  .good{
+    padding-left: 1px;
+    padding-top:8px;
+    font-size:10px;
+    color:#93a2a0 ;
+  }
